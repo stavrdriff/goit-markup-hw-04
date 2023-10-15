@@ -302,5 +302,6 @@ img {
 .footer__promote {
   --color-footer-text: var(--color-cloud);
   
+  max-width: 264px;
   color: var(--color-footer-text);
 }
