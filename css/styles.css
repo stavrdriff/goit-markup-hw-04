@@ -315,6 +315,11 @@ ul {
   gap: 16px;
 }
 
+.socials--footer .socials__link:hover,
+.socials--footer .socials__link:focus {
+  background-color: #31d0aa;
+}
+
 .socials__item {
   width: 40px;
   height: 40px;
