@@ -70,9 +70,6 @@ a {
   text-decoration: none;
   letter-spacing: .02em;
   color: #434455;
-}
-
-a {
   transition: color .25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -202,7 +199,10 @@ ul {
 
 .hero {
   padding: 188px 0;
-  background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/img-name.jpg);
+  
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero__title {
