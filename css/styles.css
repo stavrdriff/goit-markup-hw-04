@@ -251,12 +251,26 @@ ul {
   gap: 24px;
 }
 
+.priorities__icon-container {
+  padding: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  border-radius: 4px;
+  border: 1px solid #8E8F99;
+  background: #F4F4FD;
+}
+
+.priorities__icon-container svg {
+  max-width: 64px;
+  max-height: 64px;
+}
+
 .priorities__item {
   width: calc((100% - 3 * 24px) / 4);
 }
 
 .priorities__title {
-  margin-bottom: .5rem;
+  margin-block: .5rem;
 }
 
 .team {
