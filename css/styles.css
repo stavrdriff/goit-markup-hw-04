@@ -412,7 +412,11 @@ ul {
 
 .footer .container {
   display: flex;
-  gap: 120px;
+  align-items: baseline;
+}
+
+.footer__text-wrapper {
+  margin-right: 120px;
 }
 
 .footer .logo {
