@@ -410,7 +410,7 @@ ul {
   background-color: #2e2f42;
 }
 
-.footer__wrapper {
+.footer .container {
   display: flex;
   gap: 120px;
 }
