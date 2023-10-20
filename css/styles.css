@@ -310,8 +310,9 @@ ul {
   gap: 1.5rem;
 }
 
-.socials--p0 {
+.socials--footer {
   padding: 0;
+  gap: 16px;
 }
 
 .socials__item {
