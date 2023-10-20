@@ -326,7 +326,8 @@ ul {
   transition: background-color .25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.socials__link:hover {
+.socials__link:hover,
+.socials__link:focus {
   background-color: #404bbf;
 }
 
