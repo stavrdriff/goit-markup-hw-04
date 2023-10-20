@@ -310,6 +310,10 @@ ul {
   gap: 1.5rem;
 }
 
+.socials--p0 {
+  padding: 0;
+}
+
 .socials__item {
   width: 40px;
   height: 40px;
@@ -424,5 +428,7 @@ ul {
 }
 
 .footer__links-title {
+  margin-bottom: 1rem;
+  font-weight: 500;
   color: #fff;
 }
