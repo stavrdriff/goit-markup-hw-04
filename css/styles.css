@@ -165,10 +165,14 @@ ul {
   display: flex;
   padding: 24px 0;
   font-weight: 500;
-  color: #404bbf
+  color: #2E2F42;
 }
 
-.navigation__link::after {
+.navigation__item:first-child .navigation__link {
+  color: #404bbf;
+}
+
+.navigation__item:first-child .navigation__link::after {
   position: absolute;
   bottom: -1px;
   left: 0;
@@ -181,9 +185,9 @@ ul {
   content: '';
 }
 
-.navigation__link:hover.navigation__link::after {
+/* .navigation__link:hover.navigation__link::after {
   height: 4px;
-}
+} */
 
 .address {}
 
