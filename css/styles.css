@@ -359,7 +359,8 @@ ul {
 }
 
 .portfolio__item:hover .portfolio__image {
-  opacity: 0;
+  transform: translateY(-100%);
+  opacity: .1;
 }
 
 .portfolio__image-container {
@@ -368,8 +369,9 @@ ul {
 }
 
 .portfolio__image {
+  transform: translateY(0%);
   opacity: 1;
-  transition: opacity .25s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: all .25s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio__image-text {
