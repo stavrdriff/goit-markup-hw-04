@@ -252,7 +252,7 @@ ul {
 }
 
 .priorities__icon-container {
-  height: 112px; /* */
+  height: 112px;
   margin-bottom: 0.5rem;
   padding: 1.5rem 0;
   display: flex;
@@ -289,7 +289,7 @@ ul {
 }
 
 .team__caption {
-  padding: 32px 0;
+  padding: 32px 0 0;
 }
 
 .team__name {
@@ -299,6 +299,27 @@ ul {
 
 .team__position {
   text-align: center;
+}
+
+.team__actions {
+  padding: .5rem 1rem 2rem;
+}
+
+.socials {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.socials__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  background-color: #4D5AE5;
+  border-radius: 50%;
 }
 
 .portfolio {
