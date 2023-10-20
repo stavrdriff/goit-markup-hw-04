@@ -406,6 +406,11 @@ ul {
   background-color: #2e2f42;
 }
 
+.footer__wrapper {
+  display: flex;
+  gap: 120px;
+}
+
 .footer .logo {
   margin-bottom: 16px;
   display: inline-block;
@@ -416,4 +421,8 @@ ul {
   
   max-width: 264px;
   color: var(--color-footer-text);
+}
+
+.footer__links-title {
+  color: #fff;
 }
